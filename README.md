@@ -1,5 +1,7 @@
 # simulation_aperiodSchr
 
+**This repository is push mirrored to [https://github.com/eltenedor/simulation_aperiodSchr]()**
+
 Code for "Finite Section Method for Aperiodic Schrödinger Operators"
 
 # Point and Band Spectrum
