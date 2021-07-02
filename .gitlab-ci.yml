@@ -1,0 +1,39 @@
+stages:
+  - build
+
+grow-seaweed-K4:
+  stage: build
+  allow_failure: true
+  image: eltenedor/octave-w-image-signal:latest
+  script:
+    - cd Numerics/Matlab/seaweed
+    - octave -q --no-gui seaweed_demo_K4.m | tee seaweed_K4.log
+  artifacts:
+    paths:
+          - Numerics/Matlab/seaweed/data/*.{csv,tex}
+    expire_in: 1 week
+
+grow-seaweed-K5:
+  stage: build
+  allow_failure: true
+  image: eltenedor/octave-w-image-signal:latest
+  script:
+    - cd Numerics/Matlab/seaweed
+    - octave -q --no-gui seaweed_demo_K5.m | tee seaweed_K5.log
+  artifacts:
+    paths:
+          - Numerics/Matlab/seaweed/data/*.{csv,tex}
+    expire_in: 1 week
+
+grow-seaweed-K9:
+  stage: build
+  allow_failure: true
+  image: eltenedor/octave-w-image-signal:latest
+  script:
+    - cd Numerics/Matlab/seaweed
+    - octave -q --no-gui seaweed_demo_K9.m | tee seaweed_K9.log
+  artifacts:
+    paths:
+          - Numerics/Matlab/seaweed/data/*.{csv,tex}
+    expire_in: 1 week
+
