@@ -1,9 +1,9 @@
 function createTexBandSpec(filename='bands.csv')
 
 data = dlmread(filename);
-[~, baseFile, ~] = fileparts(filename);
+[prefix, baseFile, ~] = fileparts(filename);
 
-out = [baseFile, '.tex'];
+out = fullfile(prefix, [baseFile, '.tex']);
 FID = fopen(out,'w');
 
 for b=1:data(1,2)
