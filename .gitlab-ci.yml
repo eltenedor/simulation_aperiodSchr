@@ -6,11 +6,11 @@ grow-seaweed-K4:
   allow_failure: true
   image: eltenedor/octave-w-image-signal:latest
   script:
-    - cd Numerics/Matlab/seaweed
-    - octave -q --no-gui seaweed_demo_K4.m | tee seaweed_K4.log
+    - cd band_and_point_spec
+    - octave -q --no-gui seaweed_demo_K4.m
   artifacts:
     paths:
-          - Numerics/Matlab/seaweed/data/*.{csv,tex}
+          - band_and_point_spec/data/*.{csv,tex}
     expire_in: 1 week
 
 grow-seaweed-K5:
@@ -18,11 +18,11 @@ grow-seaweed-K5:
   allow_failure: true
   image: eltenedor/octave-w-image-signal:latest
   script:
-    - cd Numerics/Matlab/seaweed
-    - octave -q --no-gui seaweed_demo_K5.m | tee seaweed_K5.log
+    - cd band_and_point_spec
+    - octave -q --no-gui seaweed_demo_K5.m
   artifacts:
     paths:
-          - Numerics/Matlab/seaweed/data/*.{csv,tex}
+          - band_and_point_spec/data/*.{csv,tex}
     expire_in: 1 week
 
 grow-seaweed-K9:
@@ -30,10 +30,9 @@ grow-seaweed-K9:
   allow_failure: true
   image: eltenedor/octave-w-image-signal:latest
   script:
-    - cd Numerics/Matlab/seaweed
-    - octave -q --no-gui seaweed_demo_K9.m | tee seaweed_K9.log
+    - cd band_and_point_spec
+    - octave -q --no-gui seaweed_demo_K9.m
   artifacts:
     paths:
-          - Numerics/Matlab/seaweed/data/*.{csv,tex}
+          - band_and_point_spec/data/*.{csv,tex}
     expire_in: 1 week
-
