@@ -1,4 +1,6 @@
 .secrets
+band_and_point_spec/data/*bands*
+band_and_point_spec/data/*points*
 
 # Created by https://www.toptal.com/developers/gitignore/api/octave,vim
 # Edit at https://www.toptal.com/developers/gitignore?templates=octave,vim
