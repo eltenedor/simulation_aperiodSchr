@@ -1,7 +1,6 @@
 function [infNorm] = tridiagInvNorm(v)
   % l1/lInf norm for inverse of tridiagonal matrix in O(n)
-  % assumes nondiagonal entries to be 1, can easily be modified
-  % formula from wikipedia
+  % assumes nondiagonal entries to be 1
   
   n = length(v);
   
@@ -17,7 +16,7 @@ function [infNorm] = tridiagInvNorm(v)
   phi(n) = 1;   % in wiki formula the index goes from n+1 -> 2
   phi(n-1) = v(n);
  
-  for(j= 3:n)
+  for j= 3:n
     theta(j+1) = v(j)*theta(j) - theta(j-1);
     phi(n-j+1) = v(n-j+2)*phi(n-j+2) - phi(n-j+3);
     
