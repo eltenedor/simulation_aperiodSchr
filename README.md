@@ -21,9 +21,14 @@ Preprint: https://arxiv.org/abs/2104.00711
 
 ## Example 6.8
 
-To reconstruct Example 6.8, run 
+To reconstruct Example 6.8, in Octave/MATLAB run 
 ```matlab
-[isApplicable, minLowerNorm, delta, words, lowerNorms] = checkLowerNorms(1, 1200, [2,1,3,2,4,1,4,1,2,1,1,1])
+[isApplicable, minLowerNorm, delta, words, lowerNorms] = checkLowerNorms(1, 1200, [2,1,3,2,4,1,4,1,2,1,1,1]);
+```
+and check that
+```
+octave:2> isApplicable
+isApplicable = 1
 ```
 
 # Point and Band Spectrum
