@@ -81,6 +81,3 @@ and SageMath version 9.2
   Sage Mathematics Software (Version 9.2), The Sage Development Team
   URL http://www.sagemath.org.
 ```
-
-
-
