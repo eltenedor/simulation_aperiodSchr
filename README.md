@@ -6,14 +6,7 @@ Simulaton Code for "Finite Section Method for Aperiodic Schrödinger Operators"
 
 https://arxiv.org/abs/2104.00711
 
-# Point and Band Spectrum
 
-Run `seaweed_demo_K{4,5,9}` with configuration files in `/data` and get output files `/data`. Compare with output in `/archive`
-
-Alternatively run the following docker command
-```bash
-docker run -i --rm -v "$PWD":/usr/src/app -w /usr/src/app eltenedor/octave-w-image-signal octave --no-gui seaweed_demo_K4.m
-```
 
 # Lower Norm
 List of Matlab Files:
@@ -54,5 +47,17 @@ To reconstruct Example 6.8, run
 `[isApplicable, minLowerNorm, delta, words, lowerNorms] = checkLowerNorms(1, 1200, [2,1,3,2,4,1,4,1,2,1,1,1])`.
 
 
-# Exhaustive Example Check of Scalings of Periodic Potentials
+# Point and Band Spectrum
+
+  This directory contains [SageMath](https://www.sagemath.org/) Jupyter Notebooks and [Octave](ihttps://www.gnu.org/software/octave/) scripts that were used for 
+
+* the proof of Theorem 1.2 (`potential_data.ipynb`)
+* Figure 2
+* Figure 3
+* Figure 4
+* Figure 5
+
+The file JSON file `pots.json` contains all the data needed for the proof of Theorem 1.2.
+
+The subdirectory `point_and_band_spec/archive` contains the raw `.csv` output for the Figures, and the `.tex` source used for the publication.
 
