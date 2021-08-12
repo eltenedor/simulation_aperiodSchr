@@ -1,6 +1,5 @@
  function [word, usedAlpha] = constructAllWords(k, alpha)
-
-alpha = [alpha];
+%%% constructs all subwords of length k of v_alpha
 
 maxL = length(alpha);
 
@@ -18,7 +17,7 @@ elseif(isempty(idx))
 end
 usedAlpha = alpha(1:idx);
  
- %% set all entries of alpha after idx to 1 (they do not matter in k window)
+ %% next entry of alpha after idx to 1 (they do not matter in k window)
  alpha(idx+1) = 2;
  %usedAlpha = alpha(1:idx+3);
     
