@@ -40,7 +40,6 @@ usedAlpha = alpha(1:idx);
      tempV = circshift(v,[j,0]);
      newWords(sz+j,:) = tempV(1:k);
  end
-
  
  word = unique(newWords,'rows');
  
