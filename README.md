@@ -1,6 +1,6 @@
 # Simulation Programms for Aperiodic Schrödinger Operators
 
-**This repository is push mirrored to [https://github.com/eltenedor/simulation_aperiodSchr]()**
+**This repository is push mirrored to [https://github.com/eltenedor/simulation_aperiodSchr](https://github.com/eltenedor/simulation_aperiodSchr)**
 
 It contains the simulaton code for the article "Finite Section Method for Aperiodic Schrödinger Operators"
 
