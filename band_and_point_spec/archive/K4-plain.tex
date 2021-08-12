@@ -1,0 +1,40 @@
+\begin{tikzpicture}
+\begin{axis}[
+height=6cm,
+width=360pt,
+xlabel = {$E$} ,
+ylabel = {$\lambda$} ,
+%xlabel style={right} ,
+ylabel style={rotate=-90} ,
+%axis x line=center ,
+%axis y line=center ,
+xmin=-2 ,
+xmax=4 ,
+ymin=0.01 ,
+ymax=1.5,]
+  \draw(-2.1,0.5) node[left] {$\frac{1}{2}$};
+  \draw(-2.1,1.5) node[left] {$\frac{3}{2}$};
+  %\draw(0,0) node[below] {$0$};
+  %\draw (4, 0.001) node [below] {$E$};
+  %\draw (-2, 2) node [left] {$\lambda$};
+  %\draw (-2, 0.001) node [below] {$-2$};
+  %\draw (2, 0.001) node [below] {$2$};
+  \myInput{K4_bands}
+  \myInput{0111_0}
+  \myInput{1101_1}
+  %myInput{rpoint}
+    %grid y-direction
+  \draw[dashed,-,gray!20] (-1, -0.01) -- (-1, 2);
+  \draw[very thick, dashed,-,gray!40] (-0, -0.01) -- (-0, 2);
+  \draw[dashed,-,gray!20] (1, -0.01) -- (1, 2);
+  \draw[dashed,-,gray!20] (2, -0.01) -- (2, 2);
+  \draw[dashed,-,gray!20] (3, -0.01) -- (3, 2);
+    %grid x-direction
+  \draw[dashed,-,gray!20] (-2.1, 0.5) -- (4, 0.5);
+  \draw[dashed,-,gray!20] (-2.1, 1) -- (4, 1);
+  \draw[dashed,-,gray!20] (-2.1, 1.5) -- (4, 1.5);
+  %\draw[thick,->] (-2.1, 0.01) -- (4, 0.01);
+  %\draw[thick,->] (-2, -0.01) -- (-2, 2);
+\end{axis}
+\end{tikzpicture}
+
