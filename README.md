@@ -4,7 +4,7 @@
 
 It contains the simulaton code for the article "Finite Section Method for Aperiodic Schrödinger Operators"
 
-Preprint: https://arxiv.org/abs/2104.00711
+arXiv-Preprint: [https://arxiv.org/abs/2104.00711](arXiv:2104.00711)
 
 # Lower Norm
 
@@ -33,7 +33,7 @@ isApplicable = 1
 
 # Point and Band Spectrum
 
-  This directory contains [SageMath](https://www.sagemath.org/) Jupyter Notebooks and [Octave](https://www.gnu.org/software/octave/) scripts that were used for the proof of Theorem 1.2 and several figures.
+This directory contains [SageMath](https://www.sagemath.org/) Jupyter Notebooks and [Octave](https://www.gnu.org/software/octave/) scripts that were used for the proof of Theorem 1.2 and several figures.
 
 ## Proof of Theorem 1.2
 
