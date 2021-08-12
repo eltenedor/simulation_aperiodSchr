@@ -57,3 +57,12 @@ and the one for `l=2` to
 ```
 in order to account for the multiplicities of the zeros. See also the output of the corresponding cell in `bands.ipynb`.
 
+## Authors
+
+| | |
+|-|-|
+| Dennis Gallaun  | [dennis.gallaun@tuhh.de](mailto:dennis.gallaun@tuhh.de) |
+| Fabian Gabel    | [dennis.gallaun@tuhh.de](mailto:fabian.gabel@tuhh.de) |
+| Julian Großmann | [dennis.gallaun@tuhh.de](mailto:julian.großmann@tuhh.de) |
+| Marko Lindner   | [lindner@tuhh.de](mailto:lindner@tuhh.de) |
+| Riko Ukena      | [riko.ukena@tuhh.de](mailto:riko.ukena@tuhh.de) |
