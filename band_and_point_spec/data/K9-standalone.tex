@@ -1,0 +1,16 @@
+\documentclass[tikz]{standalone}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+\usepgfplotslibrary{fillbetween}
+
+\input{colorSpecs}
+
+\def\drawBand{\fill[bandSpecCol]}
+
+\begin{document}
+\providecommand{\myInput}[1]{\input{#1}}
+\input{K9-plain.tex}
+
+\end{document}
