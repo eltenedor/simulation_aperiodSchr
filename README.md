@@ -66,3 +66,21 @@ in order to account for the multiplicities of the zeros. See also the output of 
 | Julian Großmann | [dennis.gallaun@tuhh.de](mailto:julian.großmann@tuhh.de) |
 | Marko Lindner   | [lindner@tuhh.de](mailto:lindner@tuhh.de) |
 | Riko Ukena      | [riko.ukena@tuhh.de](mailto:riko.ukena@tuhh.de) |
+
+## References
+
+The above code was tested using Octave  5.2.0
+```
+  John W. Eaton, David Bateman, Søren Hauberg, Rik Wehbring (2019).
+  GNU Octave version 5.2.0 manual: a high-level interactive language for numerical computations.
+  URL https://www.gnu.org/software/octave/doc/v5.2.0/
+```
+and SageMath version 9.2
+```
+  William A. Stein et al. (2020) 
+  Sage Mathematics Software (Version 9.2), The Sage Development Team
+  URL http://www.sagemath.org.
+```
+
+
+
