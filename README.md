@@ -49,15 +49,31 @@ To reconstruct Example 6.8, run
 
 # Point and Band Spectrum
 
-  This directory contains [SageMath](https://www.sagemath.org/) Jupyter Notebooks and [Octave](ihttps://www.gnu.org/software/octave/) scripts that were used for 
+  This directory contains [SageMath](https://www.sagemath.org/) Jupyter Notebooks and [Octave](https://www.gnu.org/software/octave/) scripts that were used for the proof of Theorem 1.2 and several figures.
 
-* the proof of Theorem 1.2 (`potential_data.ipynb`)
-* Figure 2
-* Figure 3
-* Figure 4
-* Figure 5
+## Proof of Theorem 1.2
 
-The file JSON file `pots.json` contains all the data needed for the proof of Theorem 1.2.
+The data for the proof was generated using the Notebook `potential_data.ipynb`.
+The JSON file `pots.json` contains all the data needed for the proof of Theorem 1.2.
 
-The subdirectory `point_and_band_spec/archive` contains the raw `.csv` output for the Figures, and the `.tex` source used for the publication.
+## Figures 2, 3, 4
+
+The data for the figures resides in the subdirectory `/archive`.
+
+In order to reproduce the band spectral data, run the jupyter notebook `bands.ipynb`.
+In order to reproduce the point spectral data, run the jupyter notebook `point_spec.ipynb`.
+Both routines will generate `.csv` data that is further processed by Octave scripts.
+In order to create the tikz code needed for the plots, run the `preproc_KX.m` Octave scripts, where `X` is either `4`, `5` or `9` depending on the length of the example potential that you are interested in.
+All the newly produced data will reside in the subdirectory `/data` together with auxiliary `.tex` files. 
+In order to reproduce on of the figures, run `pdflatex KX-standalone.tex` where `X` is either `4`, `5` or `9` depending on the length of the example potential that you are interested in.
+
+Change the line for `l = 0` to
+```
+0.000000000000000,9,-2.00000000000000,-1.87938524157182,-1.87938524157182,-1.53208888623796,-1.53208888623796,-1.00000000000000,-1.00000000000000,-0.347296355333861,-0.347296355333861,0.347296355333861,0.347296355333861,1.00000000000000,1.00000000000000,1.53208888623796,1.53208888623796,1.87938524157182,1.87938524157182,2.00000000000000
+```
+and the one for `l=2` to
+```
+2.00000000000000,9,-1.12269503546099,-1.11122114140128,-0.801937735804838,-0.762512708829868,-0.341677503250975,-0.288537854368133,0.554958132087371,0.614111698460124,1.56339706474929,1.67439549622911,2.24697960371747,2.48317863579858,2.66734798160450,3.00000000000000,3.00000000000000,3.18291284403670,3.71593700828199,3.72536349954030
+```
+in order to account for the multiplicities of the zeros. See also the output of the corresponding cell in `bands.ipynb`.
 
