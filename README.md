@@ -7,22 +7,21 @@ It contains the simulaton code for the article "Finite Section Method for Aperio
 Preprint: https://arxiv.org/abs/2104.00711
 
 # Lower Norm
-List of Octave/MATLAB Files:
 
-* `checkLowerNorms.m` ... implementation of Algorithm 1, checks if the condition in Proposition 6.7 is satisfied for a fix D
+## List of Octave/MATLAB files:
 
-* `tridiagInvNorm.m` ... computes the \infty-norm of the inverse of a matrix with diagonal v and sub- and superdiagonal that are constant 1
+| Filename | Info |
+| - | - |
+| `checkLowerNorms.m`   | implementation of Algorithm 1, checks if the condition in Proposition 6.7 is satisfied for fixed D |
+| `constructAllWords.m` | returns all possible subwords of v_{\alpha,\theta} of length k |
+| `constructWord.m`     | returns s_n, see equation (16) |
+| `copyWord.m`          | auxiliary function |
+| `LowerNormsTest.m`    | a script that runs tests for `checkLowerNorms` |
+| `tridiagInvNorm.m`    | computes the \infty-norm of the inverse of a matrix with diagonal v and sub- and superdiagonal that are constant 1 |
 
-* `constructAllWords.m` ... returns all possible subwords of v_{\alpha,\theta} of length k
-
-* `constructWord.m` ... returns s_n, see equation (16)
-
-* `copyWord.m` ... auxiliary function
-
-* `LowerNormsTest.m` ... a script that runs tests for `checkLowerNorms`
+## Example 6.8
 
 To reconstruct Example 6.8, run 
-
 ```matlab
 [isApplicable, minLowerNorm, delta, words, lowerNorms] = checkLowerNorms(1, 1200, [2,1,3,2,4,1,4,1,2,1,1,1])
 ```
