@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/382299144.svg)](https://zenodo.org/badge/latestdoi/382299144)
+
+
 # Spectral Analysis Code for Aperiodic Schrödinger Operators
 
 **This repository is push mirrored to [https://github.com/eltenedor/simulation_aperiodSchr](https://github.com/eltenedor/simulation_aperiodSchr)**
