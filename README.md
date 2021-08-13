@@ -78,11 +78,11 @@ See also the output of the corresponding cell in `bands.ipynb`.
 
 # Authors
 
-| | |
+| Name | Mail |
 |-|-|
-| Fabian Gabel    | [dennis.gallaun@tuhh.de](mailto:fabian.gabel@tuhh.de) |
+| Fabian Gabel    | [fabian.gabel@tuhh.de](mailto:fabian.gabel@tuhh.de) |
 | Dennis Gallaun  | [dennis.gallaun@tuhh.de](mailto:dennis.gallaun@tuhh.de) |
-| Julian Großmann | [dennis.gallaun@tuhh.de](mailto:julian.großmann@tuhh.de) |
+| Julian Großmann | [julian.grossmann@tuhh.de](mailto:julian.grossmann@tuhh.de) |
 | Marko Lindner   | [lindner@tuhh.de](mailto:lindner@tuhh.de) |
 | Riko Ukena      | [riko.ukena@tuhh.de](mailto:riko.ukena@tuhh.de) |
 
