@@ -1,8 +1,8 @@
-# Simulation Programms for Aperiodic Schrödinger Operators
+# Spectral Analysis Code for Aperiodic Schrödinger Operators
 
 **This repository is push mirrored to [https://github.com/eltenedor/simulation_aperiodSchr](https://github.com/eltenedor/simulation_aperiodSchr)**
 
-It contains the simulaton code for the article "Finite Section Method for Aperiodic Schrödinger Operators"
+It contains the simulaton code for the article "Finite Section Method for Aperiodic Schrödinger Operators".
 
 arXiv-Preprint: [https://arxiv.org/abs/2104.00711](arXiv:2104.00711)
 
