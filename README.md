@@ -48,18 +48,25 @@ The data for the figures resides in the subdirectory `/archive`.
 
 ### Reproducibility
 
-In order to reproduce the band spectral data, run the jupyter notebook `bands.ipynb`.
-In order to reproduce the point spectral data, run the jupyter notebook `point_spec.ipynb`.
-Both routines will generate `.csv` data that is further processed by Octave scripts.
-In order to create the `tikz` code needed for the plots, run the `postroc_KX.m` Octave scripts, where `X` is either `4`, `5` or `9` depending on the length of the example potential that you are interested in.
+In order to reproduce 
+* the band spectral data, run the jupyter notebook `bands.ipynb`.
+* the point spectral data, run the jupyter notebook `point_spec.ipynb`.
+
+Both routines will generate `.csv` data in the `/data` folder that is further processed by Octave scripts to generate TikZ code.
+
+In order to create the `tikz` code needed for the plots, run the `postproc_KX.m` Octave scripts, where `X` is either `4`, `5` or `9` depending on the length of the example potential that you are interested in.
 All the newly produced data will reside in the subdirectory `/data` together with auxiliary `.tex` files. 
-In order to reproduce one of the figures, run `pdflatex KX-standalone.tex` where `X` is either `4`, `5` or `9` depending on the length of the example potential that you are interested in.
+In order to reproduce one of the figures, run 
+```
+pdflatex KX-standalone.tex
+``` 
+where `X` is either `4`, `5` or `9` depending on the length of the example potential that you are interested in.
 
 ### Modifications in the case K=9
 
-In order to account for the multiplicities of the zeros for the scalings `l=0` and `l=2` the file output of the `K9` cells in `bands.ipynb` needs to be changed before the postprocessing can start.
+In order to account for the multiplicities of the zeros for the scalings `l=0` and `l=2`, the file output of the `K9` cells in `bands.ipynb` needs to be changed before the postprocessing can start.
 
-In the output file `bands_K9.csv` , change the line for `l = 0` to
+In the output file `bands_K9.csv`, change the line for `l = 0` to
 ```
 0.000000000000000,9,-2.00000000000000,-1.87938524157182,-1.87938524157182,-1.53208888623796,-1.53208888623796,-1.00000000000000,-1.00000000000000,-0.347296355333861,-0.347296355333861,0.347296355333861,0.347296355333861,1.00000000000000,1.00000000000000,1.53208888623796,1.53208888623796,1.87938524157182,1.87938524157182,2.00000000000000
 ```
