@@ -1,5 +1,5 @@
-[![DOI](https://zenodo.org/badge/382299144.svg)](https://zenodo.org/badge/latestdoi/382299144)
-
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.5196575-blue)](https://doi.org/10.5281/zenodo.5196575)
+[![LICENCE](https://img.shields.io/badge/license-MIT-green)](https://mit-license.org/)
 
 # Spectral Analysis Code for Aperiodic Schrödinger Operators
 
