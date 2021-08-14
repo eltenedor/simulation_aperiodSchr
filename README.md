@@ -1,11 +1,13 @@
 [![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.5196575-blue)](https://doi.org/10.5281/zenodo.5196575)
 [![LICENCE](https://img.shields.io/badge/license-MIT-green)](https://mit-license.org/)
 
-# Spectral Analysis Code for Aperiodic Schrödinger Operators
 
 **This repository is push mirrored to [https://github.com/eltenedor/simulation_aperiodSchr](https://github.com/eltenedor/simulation_aperiodSchr)**
 
-It contains the simulaton code for the article "Finite Section Method for Aperiodic Schrödinger Operators".
+# Spectral Analysis Code for Aperiodic Schrödinger Operators
+
+
+Simulation code and supplementary material for the article "Finite Section Method for Aperiodic Schrödinger Operators".
 
 arXiv-Preprint: [https://arxiv.org/abs/2104.00711](arXiv:2104.00711)
 
