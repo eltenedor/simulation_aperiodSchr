@@ -13079,8 +13079,9 @@ div#notebook {
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Monodromy-Matrices-and-Scaled-Potentials">Monodromy Matrices and Scaled Potentials<a class="anchor-link" href="#Monodromy-Matrices-and-Scaled-Potentials">&#182;</a></h1><p>Given a real-valued $K$-periodic potential $(v(0),\dots,v(K-1))$, the corresponding monodromy matrix reads</p>
 \begin{equation}
-    M = \begin{pmatrix} -v(K-1)&amp;-1\\1&amp;0\end{pmatrix}\cdots 
+    M = \begin{pmatrix} -v(K-1)&amp;-1\\1&amp;0\end{pmatrix} 
 \begin{pmatrix} -v(K-2)&amp;-1\\1&amp;0\end{pmatrix}
+\cdots
 \begin{pmatrix} -v(0)&amp;-1\\1&amp;0\end{pmatrix}
 \end{equation}<p>If $v$ is a potential over the alphabet $\Sigma_\lambda = \{0,\lambda\}$ with $\lambda \in \mathbb{R}$, then the corresponding matrix entries of $M$ are polynomials in $\lambda$.</p>
 <p>The location of the zeros of the entry $M_{2,1}$ is linked to the invertibility of the corresponding one-sided periodic Schrödinger operator $H_+$. More precisely, if $|\mathrm{tr}(M) | &gt; 2$ and $M_{2,1} \neq 0$, then $H_+$ is invertible.</p>
@@ -20950,7 +20951,7 @@ $$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Run this cell in order to analyse the roots of</span>
