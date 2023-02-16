@@ -32,11 +32,11 @@ function [isApplicable, minLowerNorm, epsilon, words, lowerNorms] = checkLowerNo
     N = size(words,1);
     
     lowerNorms = Inf(N,1);
-    epsilon = 4*(lambda+2)/(D); 
+    epsilon = 4*sin(pi/(2*(D+1))); 
     parfor j=1:N  
         v = words(j,:);
         %H = diag(ones(k-1,1),-1) + lambda*diag(v) + diag(ones(k-1,1),1);
-        lowerNorms(j) = 1/tridiagInvNorm(v);
+        lowerNorms(j) = smallest_sv(v);
     end
     
     minLowerNorm = min(lowerNorms);
