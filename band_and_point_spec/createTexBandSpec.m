@@ -1,4 +1,4 @@
-function createTexBandSpec(filename='bands.csv')
+function createTexBandSpec(filename)
 
 data = dlmread(filename);
 [prefix, baseFile, ~] = fileparts(filename);

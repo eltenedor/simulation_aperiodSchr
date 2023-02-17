@@ -17,18 +17,20 @@ arXiv-Preprint: [https://arxiv.org/abs/2104.00711](arXiv:2104.00711)
 
 | Filename | Info |
 | - | - |
-| `checkLowerNorms.m`   | implementation of Algorithm 1, checks if the condition in Proposition 6.7 is satisfied for fixed D |
+| `checkLowerNorms.m`   | implementation of Algorithm 1, checks if the condition (32) in Theorem 5.8 is satisfied for fixed D |
 | `constructAllWords.m` | returns all possible subwords of v_{\alpha,\theta} of length k |
-| `constructWord.m`     | returns s_n, see equation (16) |
+| `constructWord.m`     | returns s_n, see equation (9) |
 | `copyWord.m`          | auxiliary function |
 | `LowerNormsTest.m`    | a script that runs tests for `checkLowerNorms` |
-| `tridiagInvNorm.m`    | computes the \infty-norm of the inverse of a matrix with diagonal v and sub- and superdiagonal that are constant 1 |
+| `smallest_sv.m`    | computes the smallest singular value of a rectengular matrix with diagonal v and sub- and superdiagonal that are constant 1 |
+| `plotPeriodicApproximation.m` | used for the generation of Figure 2 |
+| `growingTruncations.m`| used for the generation of Figure 3 |
 
-## Example 6.8
+## Example 5.9
 
-To reconstruct Example 6.8, in Octave/MATLAB run 
+To reconstruct Example 5.9, in Octave/MATLAB run 
 ```matlab
-[isApplicable, minLowerNorm, delta, words, lowerNorms] = checkLowerNorms(1, 1200, [2,1,3,2,4,1,4,1,2,1,1,1]);
+[isApplicable, minLowerNorm, delta, words, lowerNorms] = checkLowerNorms(1, 100, ones(11,1);
 ```
 and check that
 ```
@@ -38,9 +40,10 @@ isApplicable = 1
 
 # Point and Band Spectrum
 
-The directory `/band_and_point_spec` contains the [SageMath](https://www.sagemath.org/) Jupyter Notebooks and [Octave](https://www.gnu.org/software/octave/) scripts that were used for the proof of Theorem 1.2 and several figures.
+The directory `/band_and_point_spec` contains the [SageMath](https://www.sagemath.org/) Jupyter Notebooks and [Octave](https://www.gnu.org/software/octave/) scripts that were used for the proof of Theorem 1.1 in [[Gabel21]]( 	
+https://doi.org/10.48550/arXiv.2110.09339) and several figures.
 
-## Proof of Theorem 1.2
+## Proof of Theorem 1.1
 
 The data for the proof was generated using the notebook `potential_data.ipynb`.
 The JSON file `pots.json` contains all the data needed for the proof of Theorem 1.2.
