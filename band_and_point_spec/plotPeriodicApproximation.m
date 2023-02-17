@@ -9,7 +9,7 @@ visualize   = false; %real-time plot
 write2file  = true ;  %generate .csv output
 limops      = true ;  %all cyclic permutations
 
-alpha = ones(1,12);
+alpha = ones(1,11);
 lambda = 1;
 
 %delete old .csv files
@@ -24,7 +24,7 @@ if (write2file)
 end
 
 %loop over all scalings
-for m=12:length(alpha)
+for m=1:length(alpha)
   v = constructWord(alpha(1:m));
   %initialize arrays;
   ev = [];
