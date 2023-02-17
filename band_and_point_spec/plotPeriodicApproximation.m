@@ -1,13 +1,13 @@
 %plot spectra of periodic approximations
 
 %rewrite of plot spectrum
-
+% run this script to generate Figure 2 
 %parameters
-bandspec    = false;  %determine bands
+bandspec    = true;  %determine bands
 pointspec   = true ;  %determine pointspec
-visualize   = false; %real-time plot
+visualize   = true; %real-time plot
 write2file  = true ;  %generate .csv output
-limops      = true ;  %all cyclic permutations
+limops      = true ;  %all cyclic permutationsn
 
 alpha = ones(1,11);
 lambda = 1;
