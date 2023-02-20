@@ -142,5 +142,7 @@ and SageMath version 9.2
 
 Parts of this code also reproduces results in the preprint [[GGGLU21](https://arxiv.org/abs/2110.09339)]
 ```
-Gabel, F., Gallaun, D., Großmann, J., Lindner, M., & Ukena, R. (2021). Finite section method for aperiodic Schrödinger operators. arXiv preprint arXiv:2104.00711.
+Fabian Gabel, Dennis Gallaun, Julian Großmann, Marko Lindner, Riko Ukena (2021). 
+Finite section method for aperiodic Schrödinger operators. 
+arXiv preprint arXiv:2104.00711.
 ```
