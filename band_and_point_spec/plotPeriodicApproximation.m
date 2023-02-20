@@ -6,7 +6,7 @@
 bandspec    = true;  %determine bands
 pointspec   = true ;  %determine pointspec
 visualize   = true; %real-time plot
-write2file  = true ;  %generate .csv output
+write2file  = false ;  %generate .csv output
 limops      = true ;  %all cyclic permutationsn
 
 alpha = ones(1,11);
