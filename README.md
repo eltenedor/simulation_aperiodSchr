@@ -62,15 +62,16 @@ and check that the script finishes
 ---
 **The content below is relevant for version 2 of the preprint**
 
-https://arxiv.org/abs/2104.00711v2
+**https://arxiv.org/abs/2104.00711v2**
 
-as the content is no longer included in subsequent versions of the preprint
+**as the content is no longer included in subsequent versions of the preprint**.
+
 ---
 
 # Point and Band Spectrum 
 
 
-The directory `/band_and_point_spec` contains the [SageMath](https://www.sagemath.org/) Jupyter Notebooks and [Octave](https://www.gnu.org/software/octave/) scripts that were used for the proof of Theorem 1.1 in [[Gabel21]]( 	
+The directory `/band_and_point_spec` contains the [SageMath](https://www.sagemath.org/) Jupyter Notebooks and [Octave](https://www.gnu.org/software/octave/) scripts that were used for the proof of Theorem 1.1 in [[GGGLU21]]( 	
 https://doi.org/10.48550/arXiv.2110.09339) and several figures.
 
 ## Proof of Theorem 1.1
@@ -137,4 +138,9 @@ and SageMath version 9.2
   William A. Stein et al. (2020) 
   Sage Mathematics Software (Version 9.2), The Sage Development Team
   URL http://www.sagemath.org.
+```
+
+Parts of this code also reproduces results in the preprint [[GGGLU21](https://arxiv.org/abs/2110.09339)]
+```
+Gabel, F., Gallaun, D., Großmann, J., Lindner, M., & Ukena, R. (2021). Finite section method for aperiodic Schrödinger operators. arXiv preprint arXiv:2104.00711.
 ```
