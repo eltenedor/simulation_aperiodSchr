@@ -24,6 +24,9 @@ arXiv-Preprint: [https://arxiv.org/abs/2104.00711](arXiv:2104.00711)
 | `LowerNormsTest.m`    | a script that runs tests for `checkLowerNorms` |
 | `smallest_sv.m`    | computes the smallest singular value of a rectengular matrix with diagonal v and sub- and superdiagonal that are constant 1 |
 | `plotPeriodicApproximation.m` | used for the generation of Figure 2 |
+| `unionPointSpecPeriodicScaledOneSided.m` |  calculating the union of point spectra of scaled periodic approximations |
+| `pointSpecPeriodicScaledOneSided.m` |  calculating the point spectra of scaled periodic approximations |
+| `bandsPeriodicScaledTwoSided.m` |  calculating the spectral bands scaled periodic approximations |
 | `growingTruncations.m`| used for the generation of Figure 3 |
 
 ## Example 5.9
